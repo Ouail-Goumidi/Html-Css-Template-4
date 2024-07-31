@@ -1,0 +1,134 @@
+.wrapper>div {
+    min-height: 286px !important;
+}
+
+
+.text {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.text h4 {
+    font-weight: 600;
+    line-height: 2;
+}
+
+.text p {
+    color: gray;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+}
+
+.team {
+    position: relative;
+    height: 60px;
+
+}
+
+
+.team img {
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    border: 2px solid white;
+}
+
+.skills {
+    border-top: 1px solid rgba(128, 128, 128, 0.171);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.171);
+    margin-top: 20px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.skills span {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    background-color: #eeeeeeee;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+.wrapper>div div:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 10px;
+}
+
+.progress {
+    width: 250px;
+    height: 8px;
+    background-color: #eeeeee;
+    border-radius: 30px;
+    position: relative;
+}
+
+.progress span {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.price {
+    font-size: 14px;
+}
+
+.price::before {
+    content: "\24";
+    font-family: FontAwesome;
+    position: relative;
+    left: -2px;
+}
+
+.team img:nth-child(2) {
+    z-index: 2;
+    translate: 60%;
+}
+
+.team img:nth-child(3) {
+    z-index: 3;
+    translate: 120%;
+}
+
+.team img:nth-child(4) {
+    z-index: 4;
+    translate: 180%;
+}
+
+.team img:nth-child(5) {
+    z-index: 5;
+    translate: 240%;
+}
+
+/* Color Class */
+
+.red {
+    background-color: #f44336;
+}
+
+.green {
+    background-color: #22c55e;
+}
+
+.blue {
+    background-color: #0075ff;
+}

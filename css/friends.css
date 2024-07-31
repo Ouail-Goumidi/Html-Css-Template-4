@@ -1,0 +1,161 @@
+
+.wrapper {
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+}
+
+
+.friend {
+    position: relative;
+    min-height: 300px !important;
+
+}
+
+.email-phone {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.email-phone a {
+    width: 33px;
+    aspect-ratio: 1/1;
+    margin-right: 2px;
+    background-color: #eeeeee;
+    border-radius: 50px;
+    display: inline-grid;
+    place-content: center;
+    transition: background-color .3s;
+}
+
+.email-phone i {
+    color: #666666;
+    font-size: 13px;
+    transition: color 0.3s;
+
+}
+
+.email-phone a:hover {
+    background-color: #0075ff;
+}
+
+.email-phone a:hover i {
+    color: white;
+}
+
+.friend-profile {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.345);
+}
+
+
+.friend-profile img {
+    width: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.friend-profile p {
+    color: grey;
+    font-size: 13px;
+}
+
+
+.info {
+    margin-top: 10px;
+    padding-bottom: 20PX;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.237);
+}
+
+.customize-icon {
+    width: 22px;
+    height: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.customize-icon .one {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: relative;
+}
+
+.customize-icon .two {
+    width: 9px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background-color: white;
+}
+
+.info .box {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 10px;
+}
+
+.info i {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.info .box > span {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.profile-remove {
+    display: flex;
+    align-items: center;
+    padding: 15px 0 10px 0;
+    justify-content: space-between;
+}
+
+.profile-remove > span:first-child {
+    font-size: 13px;
+}
+
+.profile-remove .links a:nth-child(1) {
+    font-size: 14px;
+    background-color: #0075ff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.profile-remove .links a:nth-child(2) {
+    font-size: 13px;
+    background-color: #f44336;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

@@ -83,6 +83,7 @@
 
 .my-profile .info {
     flex: 1;
+
 }
 
 .my-profile .info .box {
@@ -133,7 +134,7 @@
 @media (max-width:767px) {
     .my-profile .info .box {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns:1fr;
         gap: 15px;
 
     }
